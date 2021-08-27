@@ -37,7 +37,7 @@ function Terms() {
           >
             Ketentuan Layanan
           </Heading>
-          <Image width={200} height={122} src={'/images/orange/ksana.svg'} alt="Hamsh.me" />
+          <Image width={200} height={122} src={'/images/biru/hamsh.svg'} alt="Hamsh.me" />
         </VStack>
 
         <Container maxW={'4xl'} mx="auto" as="section">

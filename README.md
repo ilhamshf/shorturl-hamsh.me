@@ -1,6 +1,6 @@
 # [ksana.in](https://ksana.in)
 
-<img alt="ksana.in" src="public/images/orange/ksana.png" height="80"/>
+<img alt="ksana.in" src="public/images/biru/hamsh.png" height="80"/>
 
 ✂️ Open source URL shortener, free to use and without ads
 

@@ -3,13 +3,13 @@
   "name": "hamsh.me: Pemendek tautan yang mudah dan gratis",
   "icons": [
     {
-      "src": "/images/maskable/ksana-192x192.png",
+      "src": "/images/maskable/hamsh-192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable any"
     },
     {
-      "src": "/images/maskable/ksana-512x152.png",
+      "src": "/images/maskable/hamsh-512x152.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable any"

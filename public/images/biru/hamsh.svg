@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="942" height="578" viewBox="0 0 942 578">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 320px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #008def;
+        font-family: "Uni Neue-Trial";
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        font-size: 181px;
+      }
+    </style>
+  </defs>
+  <text id="hamsh" class="cls-1" x="-7" y="360">hamsh</text>
+  <text id="_.me" data-name=".me" class="cls-2" x="650" y="475">.me</text>
+</svg>

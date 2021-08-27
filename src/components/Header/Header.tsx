@@ -1,6 +1,7 @@
-import { Flex, Button } from '@chakra-ui/react'
+import { Link, Flex, Button } from '@chakra-ui/react'
 import { useEffect, useRef, useState } from 'react'
 import { HiDownload } from 'react-icons/hi'
+import Image from 'next/image'
 
 import { sendEvent } from 'libs/splitbee'
 import { DarkModeSwitch } from '../DarkModeSwitch'
@@ -75,6 +76,17 @@ export function Header() {
       zIndex="3"
       bg="#008DEF"
     >
+      <Link
+        href={'/'}
+        name="Beranda"
+        _hover={{
+          textDecoration: 'none'
+        }}
+      >
+        
+        <Image width={82} height={50} src={'/images/header/hamsh.png'} alt="Hamsh.me" />
+
+      </Link>
 
 
       {/* logo disini */}
