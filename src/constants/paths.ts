@@ -1,5 +1,5 @@
 export const HOME: string = process.env.NEXT_PUBLIC_HOME || ''
-export const META_IMAGE: string = `images/meta/meta-small.jpg`
+export const META_IMAGE: string = `images/meta/meta-small-hamsh.jpg`
 
 export const META_ICON: string = `${HOME}images/favicon/ksana-48x48.png`
 
