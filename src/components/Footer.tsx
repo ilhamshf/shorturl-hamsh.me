@@ -17,7 +17,6 @@ import {
   kebijakanPrivasi,
   splitbeeAnalytics
 } from 'constants/paths'
-import { BRAND } from 'constants/texts'
 export interface IFooterProps {
   withBacklink: boolean
 }
