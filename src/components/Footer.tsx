@@ -132,17 +132,22 @@ export function Footer({ withBacklink }: IFooterProps) {
           >
             <Text>
               © 2021{' '}
-              <Link href={'/'} textDecoration="underline">
-                {BRAND}
-              </Link>{' '}
-              dibuat oleh{' '}
+              Build by {' '}
               <Link
                 textDecoration="underline"
-                href={'https://mazipan.space/'}
+                href={'https://ilhamshf.space/'}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Irfan Maulana
+                Ilham Shofa {' '}
+              </Link>
+              Based on {' '}
+              <Link
+                href={'https://ksana.in/'}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ksana.in
               </Link>
             </Text>
           </Flex>
