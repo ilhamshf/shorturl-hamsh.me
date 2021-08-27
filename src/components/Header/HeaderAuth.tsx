@@ -1,6 +1,7 @@
-import { Button, Flex } from '@chakra-ui/react'
+import { Link, Button, Flex } from '@chakra-ui/react'
 
 import { HiLogout } from 'react-icons/hi'
+import Image from 'next/image'
 
 import { useAuthContext } from 'context/Auth'
 import { DarkModeSwitch } from '../DarkModeSwitch'
@@ -24,7 +25,17 @@ export function Header() {
       bg="#008DEF"
     >
       
-      {/* Logo disini */}
+      <Link
+        href={'/'}
+        name="Beranda"
+        _hover={{
+          textDecoration: 'none'
+        }}
+      >
+        
+        <Image width={82} height={50} src={'/images/header/hamsh.png'} alt="Hamsh.me" />
+
+      </Link>
 
       <Flex justifyContent="space-between" alignItems="center">
         {!isLoading && isLogin && (
