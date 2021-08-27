@@ -64,10 +64,10 @@ export function MetaHead({
         href="/images/favicon/android-icon-192x192.png"
       />
 
-      <meta name="msapplication-TileColor" content="#ED8936" />
+      <meta name="msapplication-TileColor" content="#008DEF" />
       <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png" />
 
-      <meta name="theme-color" content="#ED8936" />
+      <meta name="theme-color" content="#008DEF" />
       <link rel="manifest" href="/manifest.json" />
       
       <meta name="yandex-verification" content="f7aa4dd770d17d3e" />

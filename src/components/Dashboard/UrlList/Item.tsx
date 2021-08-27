@@ -223,7 +223,7 @@ export function Item({ user, data }: IUrlItemProps) {
           fontSize="20px"
           variant="ghost"
           borderRadius="md"
-          icon={isSuccessCopy ? <HiCheck color="#48BB78" /> : <HiDuplicate color="#ED8936" />}
+          icon={isSuccessCopy ? <HiCheck color="#48BB78" /> : <HiDuplicate color="#008DEF" />}
         />
         {isSupportShare ? (
           <IconButton
@@ -235,7 +235,7 @@ export function Item({ user, data }: IUrlItemProps) {
             variant="ghost"
             borderRadius="md"
             isLoading={isLoadingShare}
-            icon={<HiShare color="#ED8936" />}
+            icon={<HiShare color="#008DEF" />}
           />
         ) : (
           <SharePopover url={`${HOME}${data.slug}`} />
@@ -248,7 +248,7 @@ export function Item({ user, data }: IUrlItemProps) {
           fontSize="20px"
           variant="ghost"
           borderRadius="md"
-          icon={<HiPencil color="#ED8936" />}
+          icon={<HiPencil color="#008DEF" />}
         />
         <IconButton
           onClick={() => {
@@ -258,7 +258,7 @@ export function Item({ user, data }: IUrlItemProps) {
           fontSize="20px"
           variant="ghost"
           borderRadius="md"
-          icon={<HiTrash color="#ED8936" />}
+          icon={<HiTrash color="#008DEF" />}
         />
       </HStack>
     </ListItem>

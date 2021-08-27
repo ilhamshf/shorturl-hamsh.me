@@ -53,7 +53,7 @@ const SharePopover = ({ url }: SharePopoverProps) => {
           variant="ghost"
           borderRadius="md"
           isLoading={isLoadingShare}
-          icon={<HiShare color="#ED8936" />}
+          icon={<HiShare color="#008DEF" />}
         />
       </PopoverTrigger>
       <PopoverContent>

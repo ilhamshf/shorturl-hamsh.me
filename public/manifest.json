@@ -16,10 +16,10 @@
     }
   ],
   "start_url": "/?source=pwa",
-  "background_color": "#ED8936",
+  "background_color": "#008DEF",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#ED8936",
+  "theme_color": "#008DEF",
   "description": "Pemendek tautan yang mudah dan gratis",
   "screenshots": [
     {
