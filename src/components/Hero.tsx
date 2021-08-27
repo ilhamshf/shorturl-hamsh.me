@@ -31,11 +31,11 @@ export function Hero() {
             >
               Pemendek tautan yang{' '}
               <Text color="#008DEF" as="span">
-                mudah
+                simpel
               </Text>{' '}
               dan{' '}
               <Text color="#008DEF" as="span">
-                gratis
+                mudah
               </Text>
             </Heading>
 
