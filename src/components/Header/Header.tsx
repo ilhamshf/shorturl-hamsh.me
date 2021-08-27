@@ -96,9 +96,9 @@ export function Header() {
           <Button
             px={6}
             color={'white'}
-            bg="green.400"
+            bg="##20E700"
             _hover={{
-              bg: 'green.500'
+              bg: '#19B100'
             }}
             mr="2"
             onClick={handleClick}
