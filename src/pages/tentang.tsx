@@ -51,6 +51,10 @@ const tools = [
   {
     title: 'ManyPixels.co',
     url: 'https://www.manypixels.co/gallery'
+  },
+  {
+    title: 'Storyset',
+    url: 'https://storyset.com/'
   }
 ]
 
@@ -80,7 +84,7 @@ function About() {
         <VStack spacing={4}>
           <Text color={colorText}>
             {BRAND} adalah layanan pemendek tautan / URL yang gratis dan mudah untuk digunakan.
-            Layanan ini diinisiasi oleh Irfan Maulana dalam rangka mempelajari layanan baru dari
+            Layanan ini diinisiasi oleh Irfan Maulana dan di recode oleh Ilham Shofa dalam rangka mempelajari layanan baru dari
             Supabase.io, membuat sesuatu projek nyata untuk bisa mengimplementasikan langsung apa
             yang memang sedang ingin dipelajari.
           </Text>
@@ -136,11 +140,11 @@ function About() {
               hamsh.me/gh
             </Link>
             <ImageChakra
-              src={'https://img.shields.io/github/stars/mazipan/hamsh.me?style=social'}
+              src={'https://img.shields.io/github/stars/ilhamshf/shorturl-hamsh.me?style=social'}
             />
           </HStack>
           <Text color={colorText}>
-            Untuk mendukung saya dan {BRAND} terus berkreasi membuat kode terbuka lainnya, kalian
+            Untuk mendukung Irfan Maulana dan {BRAND} terus berkreasi membuat kode terbuka lainnya, kalian
             bisa mengirimkan dana untuk membeli kopi melalui{' '}
             <Link
               target="_blank"
@@ -160,9 +164,9 @@ function About() {
               rel="noopener noreferrer"
               color="#008DEF"
               fontWeight="bold"
-              href="https://mazipan.space"
+              href="https://ilhamshf.space"
             >
-              Irfan Maulana
+              Ilham Shofa
             </Link>
           </Text>
         </VStack>

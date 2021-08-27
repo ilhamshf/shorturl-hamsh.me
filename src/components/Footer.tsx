@@ -138,9 +138,9 @@ export function Footer({ withBacklink }: IFooterProps) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Ilham Shofa {' '}
+                Ilham Shofa
               </Link>
-              Based on {' '}
+              {' '} Based on {' '}
               <Link
                 href={'https://ksana.in/'}
                 target="_blank"
