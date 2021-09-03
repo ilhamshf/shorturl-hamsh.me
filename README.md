@@ -1,10 +1,10 @@
-# [ksana.in](https://ksana.in)
+# [hamsh.me](https://hamsh.me)
 
-<img alt="ksana.in" src="public/images/biru/hamsh.png" height="80"/>
+<img alt="hamsh.me" src="public/images/biru/hamsh.png" height="80"/>
 
 ✂️ Open source URL shortener, free to use and without ads
 
-[![Deployment](https://img.shields.io/github/deployments/mazipan/ksana.in/production?label=vercel&logo=vercel&logoColor=white)](https://github.com/mazipan/ksana.in/deployments/activity_log?environment=Production) ![Website Up](https://img.shields.io/website-up-down-brightgreen-red/https/ksana.in.svg)
+[![Deployment](https://img.shields.io/github/deployments/mazipan/hamsh.me/production?label=vercel&logo=vercel&logoColor=white)](https://github.com/mazipan/hamsh.me/deployments/activity_log?environment=Production) ![Website Up](https://img.shields.io/website-up-down-brightgreen-red/https/hamsh.me.svg)
 
 ## Features
 
@@ -78,7 +78,7 @@ Click **RUN** to execute the query
 
 ## Additional settings for Authentication
 
-- on Authentication setting, change `Site URL` to `/callback`. e.g: `https://ksana.in/callback`, for development just set it to `http://localhost:3000/callback`
+- on Authentication setting, change `Site URL` to `/callback`. e.g: `https://hamsh.me/callback`, for development just set it to `http://localhost:3000/callback`
 - To support Google Login, in Authentication setting page, set the `Google Client ID` and `Google Secret`
 
 ## Add environment variables on Vercel
@@ -87,16 +87,16 @@ You can found all required environment variables on `.env.local.example`
 
 ## Register you own Splitbee
 
-Ksana.in using Splitbee for Analytic, if you plan to deploy it by yourself, you might need to register your own Splitbee account.
+Hamsh.me using Splitbee for Analytic, if you plan to deploy it by yourself, you might need to register your own Splitbee account.
 
 ## Can I deploy to my own domain?
 
 The code is open for learning purpose.
-But in case you didn't like the default domain (`ksana.in`), feel free to deploy to your own domain.
-Since Ksana.in is using a free plan from Supabase, it have many limitation in term of size.
+But in case you didn't like the default domain (`hamsh.me`), feel free to deploy to your own domain.
+Since Hamsh.me is using a free plan from Supabase, it have many limitation in term of size.
 If you plan to use it in the bigger frequency, I suggest to deploy it with your own Supabase plan.
 
-## The Apps based on Ksana.in's codebase
+## The Apps based on Hamsh.me's codebase
 
 - https://hamsh.me/
 
